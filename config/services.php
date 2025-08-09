@@ -34,5 +34,9 @@ return [
             'channel' => env('SLACK_BOT_USER_DEFAULT_CHANNEL'),
         ],
     ],
+    'hubrise' => [
+        'url' => env('HUBRISE_API_URL'),
+        'token' => env('HUBRISE_TOKEN'),
+    ],
 
 ];
